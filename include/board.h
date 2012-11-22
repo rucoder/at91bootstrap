@@ -48,6 +48,11 @@
 #include "at91sam9m10g45ek.h"
 #endif
 
+#ifdef CONFIG_AT91SAM9G45OEM
+#include "at91sam9g45oem.h"
+#endif
+
+
 #ifdef CONFIG_AT91SAM9261EK
 #include "at91sam9261ek.h"
 #endif
